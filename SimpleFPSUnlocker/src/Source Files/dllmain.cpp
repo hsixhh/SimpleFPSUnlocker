@@ -15,8 +15,8 @@ auto m_main() -> void
         while (true)
             *reinterpret_cast<double*>(Globals::Scheduler + offsets::FrameDelay) = 1.0 / Globals::FrameCap;
         }).detach();
-
-    Initialize();
+        
+    Initialize(); /*trillionare*/
 }
 
 auto __stdcall DllMain(void*, std::uint32_t call_reason, void*) -> bool
@@ -24,8 +24,7 @@ auto __stdcall DllMain(void*, std::uint32_t call_reason, void*) -> bool
     if (call_reason != 1)
         return false;
 
-    if (call_reason == 1)
-        std::thread(m_main).detach();
+    std::thread(m_main).detach(); // uh oh!
 
     return true;
 }

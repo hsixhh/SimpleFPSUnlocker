@@ -6,6 +6,8 @@ namespace Utils
 {
 	/*Was told this method was shitty BUT it works so*/
 
+	//SLUM
+
 	bool Compare(const BYTE* pData, const BYTE* bMask, const char* szMask)
 	{
 		for (; *szMask; ++szMask, ++pData, ++bMask)

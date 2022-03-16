@@ -3,6 +3,9 @@
 Simple Roblox FPS unlocker that comes with a simple user interface with a slider so you can choose your desired FPS cap
 
 ## Usage
+1. Download the latest release
+
+## Compiling
 
 1. Download the latest source code.
 2. Set build to release (x86).

@@ -12,7 +12,7 @@ Simple Roblox FPS unlocker that comes with a simple user interface with a slider
 
 1. Download the latest source code.
 2. Set build to release (x86).
-3. Go to project properties -> Linker -> Linker -> Put "d3d11.lib" inside of "Additional Dependencies.
+3. Go to project properties -> Linker -> Input -> Put "d3d11.lib" inside of "Additional Dependencies.
 5. Build the solution.
 
 ## Note

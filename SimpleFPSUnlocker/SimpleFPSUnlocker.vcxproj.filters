@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Source Files\dllmain.cpp" />
+    <ClCompile Include="src\Resource Files\ocornut\imgui.cpp" />
+    <ClCompile Include="src\Resource Files\ocornut\imgui_demo.cpp" />
+    <ClCompile Include="src\Resource Files\ocornut\imgui_draw.cpp" />
+    <ClCompile Include="src\Resource Files\ocornut\imgui_impl_dx11.cpp" />
+    <ClCompile Include="src\Resource Files\ocornut\imgui_impl_win32.cpp" />
+    <ClCompile Include="src\Resource Files\ocornut\imgui_tables.cpp" />
+    <ClCompile Include="src\Resource Files\ocornut\imgui_widgets.cpp" />
+    <ClCompile Include="src\Header Files\Poppins-SemiBold.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Header Files\offsets.h" />
+    <ClInclude Include="src\Header Files\imgui-overlay.h" />
+    <ClInclude Include="src\Resource Files\ocornut\imconfig.h" />
+    <ClInclude Include="src\Resource Files\ocornut\imgui.h" />
+    <ClInclude Include="src\Resource Files\ocornut\imgui_impl_dx11.h" />
+    <ClInclude Include="src\Resource Files\ocornut\imgui_impl_win32.h" />
+    <ClInclude Include="src\Resource Files\ocornut\imgui_internal.h" />
+    <ClInclude Include="src\Resource Files\ocornut\imstb_rectpack.h" />
+    <ClInclude Include="src\Resource Files\ocornut\imstb_textedit.h" />
+    <ClInclude Include="src\Resource Files\ocornut\imstb_truetype.h" />
+    <ClInclude Include="src\Resource Files\ocornut\tabs.h" />
+  </ItemGroup>
+</Project>

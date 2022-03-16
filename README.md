@@ -19,4 +19,4 @@ Simple Roblox FPS unlocker that comes with a simple user interface with a slider
 This was released as a tool to help people learn, the code is not the best by any means.
 
 User Interface:
-<br>![sample code output (dark)](https://cdn.discordapp.com/attachments/868549617875288115/953557245008941066/unknown.png)
+<br>![simple](https://cdn.discordapp.com/attachments/868549617875288115/953557245008941066/unknown.png)

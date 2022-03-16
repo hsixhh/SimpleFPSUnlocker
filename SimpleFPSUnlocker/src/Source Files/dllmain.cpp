@@ -16,7 +16,7 @@ auto m_main() -> void
             *reinterpret_cast<double*>(Globals::Scheduler + offsets::FrameDelay) = 1.0 / Globals::FrameCap;
         }).detach();
         
-    Initialize(); /*trillionare*/
+    Initialize();
 }
 
 auto __stdcall DllMain(void*, std::uint32_t call_reason, void*) -> bool

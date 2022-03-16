@@ -3,8 +3,8 @@
 Simple Roblox FPS unlocker that comes with a simple user interface with a slider so you can choose your desired FPS cap
 
 ## Usage
-1. Download the latest release from -> https://github.com/nicholas-1000/SimpleFPSUnlocker/releases.
-2. Find a DLL Injector (I recommend Process Hacker which u can get here -> https://processhacker.sourceforge.io/downloads.php.
+1. Download the latest release from: https://github.com/nicholas-1000/SimpleFPSUnlocker/releases.
+2. Find a DLL Injector (I recommend Process Hacker which u can get here https://processhacker.sourceforge.io/downloads.php.)
 3. Inject the dll into RobloxPlayerBeta.exe.
 4. Enjoy.
 

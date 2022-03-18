@@ -65,7 +65,7 @@ namespace Utils
 
 namespace offsets
 {
-	constexpr std::uintptr_t FrameDelay = 272;
+	constexpr std::uintptr_t FrameDelay = 280;
 
 	using get_task_scheduler_t = std::uintptr_t(*)();
 	std::uintptr_t _sig = Utils::SignatureScan("\x55\x8B\xEC\x83\xE4\xF8\x83\xEC\x08\xE8\x00\x00\x00\x00\x8D\x0C\x24", "xxxxxxxxxx????xxx"); /*this change? not recently*/
